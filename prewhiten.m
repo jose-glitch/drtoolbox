@@ -21,7 +21,7 @@ function [mappedX, W, mu_X] = prewhiten(X)
 % (C) Laurens van der Maaten, Delft University of Technology
 
 
-    welcome;
+    %welcome;
 
     % Compute and apply the ZCA mapping
     mu_X = mean(X, 1);
